@@ -1,5 +1,5 @@
 # Installation
-This repository assumes that the [Robot Operating System (ROS)](https://www.ros.org/) has already been installed on your environment.
+This repository assumes that the [Robot Operating System (ROS)](https://www.ros.org/) has already been installed on your environment.   
 See [ros.org](https://www.ros.org/install/) to know how to install ROS.
 
 ## Create workspace
@@ -25,7 +25,7 @@ $ git clone --recursive https://github.com/Tossy0423/yolov4-for-darknet_ros.git
 ```
 
 ## Download weights file
-The weights file is very large and needs to be downloaded separately.
+The weights file is very large and needs to be downloaded separately.   
 Download the weights file to `darknet_ros/darknet_ros/yolo_network_config/weights` to install it.
 ```bash
 $ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
@@ -33,8 +33,8 @@ $ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_opt
 
 
 ## make pkg
-Edit CMakeLists.txt file at 'darknet_ros/darknet_ros'
-Match CUDA arch and your NVIDIA driver at [here](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/).
+Edit CMakeLists.txt file at 'darknet_ros/darknet_ros'.   
+Match CUDA arch and your NVIDIA driver at [here](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/).   
 like this "gencode arch=compute_75,code=[sm_75,compute_75]"
 
 ```bash
