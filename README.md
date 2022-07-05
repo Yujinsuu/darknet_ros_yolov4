@@ -35,8 +35,8 @@ $ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_opt
 ## make pkg
 Edit CMakeLists.txt file at 'darknet_ros/darknet_ros'
 Match CUDA arch and your NVIDIA driver at [here](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)
-like this 
-    -gencode arch=compute_75,code=[sm_75,compute_75]
+like this "gencode arch=compute_75,code=[sm_75,compute_75]"
+
 ```bash
 $ cd <workspace>
 $ catkin_make
