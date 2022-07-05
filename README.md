@@ -44,19 +44,3 @@ $ catkin_make
 # Write source command in ~/.bashrc
 $ echo "source ~/workspace/devel/setup.bash" >> ~/.bashrc
 ```
-
-
-# Environment
-
-|         Topics         	|                     Spec                     	|
-|:----------------------:	|:--------------------------------------------:	|
-|          Model         	|              Dell ALIENWARE m15              	|
-|           CPU          	|   Intel® Core™ i7-8750H CPU @ 2.20GHz × 12   	|
-|           GPU          	| GeForce RTX 2070 with Max-Q Design/PCIe/SSE2 	|
-|           RAM          	|                    15.4 GB                   	|
-|           OS           	|           Ubuntu 18.04.3 LTS bionic          	|
-|       Midlleware       	|                  ROS Melodic                 	|
-|       NVIDIA-SMI       	|                    440.100                   	|
-|     Driver Version     	|                    440.100                   	|
-|      CUDA Version      	|                     10.2                     	|
-| Cuda compilation tools 	|            release 10.1, V10.1.243           	|
