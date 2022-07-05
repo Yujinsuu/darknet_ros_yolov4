@@ -1,5 +1,3 @@
-# darknet_ros_yolov4
-
 Installation
 This repository assumes that the Robot Operating System (ROS) has already been installed on your environment. See ros.org to know how to install ROS. My environment is here.
 
